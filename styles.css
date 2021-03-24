@@ -1,0 +1,254 @@
+/* * {
+    border: 1px solid red !important;
+} */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: Caveat;
+    font-size: 12vw;
+    font-weight: bold;
+    color: rgb(175, 4, 4);
+}
+
+h2 {
+    font-family: Caveat;
+    font-size: 6vw;
+    font-weight: bold;
+    color: black;
+    margin-top: 2vw;
+}
+
+h3 {
+    font-family: Caveat;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+h3 a {
+    text-decoration: underline;
+    color:rgb(2, 117, 170);
+    margin: 2vw;
+}
+
+h4 {
+    font-family: Caveat;
+    font-size: 3.6vw;
+    font-weight: bold;
+    margin: 2vw;
+}
+
+p {
+    font-family: Caveat;
+    font-size: 3.2vw;
+}
+
+
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/yellowWoodBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container-logo {
+    width: 15%;
+    height: auto;
+}
+
+.img-container-logo img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 4vw;
+}
+
+.banner {
+    background-image: url("./images/alexandra-tran-u3I4GQ-b5zM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 62.5vw;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner h2 {
+    margin: 0 0 40% 0;
+    padding: 0 10%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(128, 0, 0, 0.6);
+}
+
+section#mission {
+    display: flex;
+    width: 90%;
+    height: 34vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    justify-content: space-around;
+    border-top: 1vw double rgb(243, 185, 59);
+    padding-top: 2vw;
+}
+
+#mission .img-container {
+    width: 30%;
+    height: 37.5vw;
+    overflow: hidden;
+    margin-top: 2vw;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mission-text {
+    width: 60%;
+    height: auto;
+}
+
+.mission-text h2 {
+    color:rgb(175, 4, 4);
+    margin-bottom: 2vw;
+}
+
+.mission-text p {
+    font-size: 3.5vw;
+}
+
+/*     Our Ukes      */
+#our-ukes {
+   width: 90%;
+   height: 78vw;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 3vw;
+   border-top: 1.25vw double rgb(243, 111, 59);
+}
+
+p.uke-details {
+    padding: 2vw 10vw;
+    font-family: Sarabun;
+
+}
+
+.ukes {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.uke-type {
+    width: 25%;
+    height: auto;
+    margin-top: 4vw;
+}
+
+.uke-type h3 {
+    font-family: Sarabun;
+    margin: .4vw 0;
+}
+
+.uke-type p {
+    font-family: Sarabun;
+    font-size: 2.4vw;
+    padding: 0.4vw 2vw;
+}
+
+.uke-type .img-container {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+/*  Our Team   */
+#our-team {
+    width: 90%;
+   height: 105vw;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 3vw;
+   border-top: 1.25vw double rgb(51, 109, 3);
+}
+
+.team-container {
+    width: 100%;
+    height: auto;
+}
+
+.team-member {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4vw;
+}
+
+.founder-img {
+    width: 20%;
+}
+
+.founder-img .img-container{
+    width: 100%;
+    height: auto;
+}
+
+.luthier .img-container {
+    width: 20%;
+    height: auto;
+}
+
+.tm-description {
+    width: 70%;
+    /* margin: 0 4vw; */
+}
+.tm-description h3 {
+    margin-bottom: 1vw;
+}
+
+#contact {
+    width: 100%;
+    height: auto;
+    text-align:center;
+    color: whitesmoke;
+    margin: 0 auto;
+    background-image: url("./images/yellowWoodBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer#contact h3 {
+    padding: 1.6vw 0;
+}
+
+.contact-info {
+   
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5vw;
+}
+
+.contact-info h4 {
+    font-family: Sarabun;
+    font-size: 2.4vw;
+}
+
+
+.copyright {
+    font-family: Sarabun;
+    font-size: 2vw;
+    text-align: left;
+}
